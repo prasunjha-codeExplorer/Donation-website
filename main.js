@@ -48,7 +48,7 @@ function checkPlaceholder() {
     formData.append("email",email);
     formData.append("message",msg);
     
-      alert("Plz wait while we redirect you to the payment page!");
+      alert("Plz wait for 6-7 sec while we redirect you to the payment page!");
     const scriptURL = "https://script.google.com/macros/s/AKfycbwimyt0jbxW4vrUAS_TuuXqVsTtyX1mARd9j17teoB6NXAUxF_8YsbqfyvMC07bKEIijA/exec";
     fetch(scriptURL,{method: 'POST', body: formData})
     .then((response) => {
