@@ -83,7 +83,6 @@ h1,h2,h3,p{
 .border-btn,
 .fill-btn{
     padding: .7rem .5rem;
-    /* border: .1rem solid black; */
     font-weight: 600;
     text-transform: uppercase;
     transition: .5s ease-in-out;
@@ -177,16 +176,6 @@ img{
     width: 100%;
     object-fit: cover;
 }
-
-/* .image-container::before{
-    content: '';
-    position: absolute;
-    background: var(--design-clr);
-    inset: 6rem;
-    border-radius: 50%;
-    z-index: -1;
-    filter: blur(130px);
-} */
 
 .other-section{
     padding-block: 4rem;
@@ -313,13 +302,6 @@ textarea{
 }
 
 
-/* form{
-    padding: 5rem;
-    max-width: 700px;
-    margin: auto;
-    text-align: center;
-} */
-
 form h2{
     font-size: 2.5rem;
 }
@@ -334,15 +316,6 @@ form *{
     padding: .5rem;
     margin-top: 1.5rem;
 }
-/* 
-input[type="email"]{
-    flex: 1;
-    background: transparent;
-    font-size: 1rem;
-    border: none;
-    color: var(--text-clr);
-    font-weight: 600;
-} */
 
 .small{
     display: none;
